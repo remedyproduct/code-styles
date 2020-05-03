@@ -4,8 +4,12 @@ Basic linter, formatter & editor config for [Create React App](https://github.co
 
 In the project directory, you can run:
 
-`$ yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react-hooks prettier`
+```shell
+  $ yarn add -D eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react-hooks prettier
+```
 
 or
 
-`$ npm i --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react-hooks prettier`
+```shell
+  $ npm i --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react-hooks prettier
+```
