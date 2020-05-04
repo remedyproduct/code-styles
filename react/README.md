@@ -20,3 +20,7 @@ or
 2. Ability to use absolute import paths without ejecting & manual webpack settings.
 3. VS code plugin recomendations.
 4. Others...
+
+#### VS Code users
+
+Copy `vscode` folder into your project root folder and rename it to `.vscode`
