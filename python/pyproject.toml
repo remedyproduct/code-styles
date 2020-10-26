@@ -1,7 +1,21 @@
 [tool.black]
 line-length = 120
 include = '\.pyi?$'
-exclude = 'tests/.*/snapshots/.*'
+exclude = '''
+/(
+    tests/.*/snapshots/.*
+  | \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
 
 [tool.isort]
 multi_line_output = 3
