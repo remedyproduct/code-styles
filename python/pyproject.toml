@@ -10,4 +10,9 @@ combine_as_imports = true
 force_grid_wrap = 0
 skip_glob = '*/snapshots/*'
 include_trailing_comma = true
-
+balanced_wrapping = true
+combine_star = true
+intend = 4
+lines_between_types = true
+order_by_type = true
+use_parentheses = true
