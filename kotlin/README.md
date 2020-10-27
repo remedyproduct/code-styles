@@ -1,28 +1,3 @@
-## Installation
-
-> Skip all the way to the "Integration" section if you don't plan to use `ktlint`'s command line interface.
-
-```sh
-curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.39.0/ktlint &&
-  chmod a+x ktlint &&
-  sudo mv ktlint /usr/local/bin/
-```
-
-... or just download `ktlint` from the [releases](https://github.com/pinterest/ktlint/releases) page
-
-* `ktlint.asc` contains PGP signature which you can verify with:
-  * (Releases up through 0.31.0) `curl -sS https://keybase.io/shyiko/pgp_keys.asc | gpg --import && gpg --verify ktlint.asc`
-  * (Releases from 0.32.0 on) `curl -sS https://keybase.io/ktlint/pgp_keys.asc | gpg --import && gpg --verify ktlint.asc`
-
-On macOS ([or Linux](http://linuxbrew.sh/)) you can also use [brew](https://brew.sh/) - `brew install ktlint`.
-
-> If you don't have curl installed - replace `curl -sL` with `wget -qO-`.
-
-> If you are behind a proxy see -
-[curl](https://curl.haxx.se/docs/manpage.html#ENVIRONMENT) / 
-[wget](https://www.gnu.org/software/wget/manual/wget.html#Proxies) manpage. 
-Usually simple `http_proxy=http://proxy-server:port https_proxy=http://proxy-server:port curl -sL ...` is enough. 
-
 ## Usage
 
 ```bash
